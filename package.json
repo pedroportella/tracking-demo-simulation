@@ -1,0 +1,23 @@
+{
+  "name": "tracking-demo-simulation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Tracking Demo standalone telemetry simulation service",
+  "packageManager": "pnpm@8.15.5",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
